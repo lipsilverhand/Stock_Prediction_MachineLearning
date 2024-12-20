@@ -7,6 +7,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.preprocessing import MinMaxScaler
 from datetime import datetime
 import os
+
 os.system('pip install --upgrade matplotlib')
 os.system('pip install --upgrade yfinance')
 
