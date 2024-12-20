@@ -8,6 +8,7 @@ from sklearn.preprocessing import MinMaxScaler
 from datetime import datetime
 import os
 os.system('pip install --upgrade matplotlib')
+os.system('pip install --upgrade yfinance')
 
 # Streamlit App
 st.title("Stock Price Prediction App")
